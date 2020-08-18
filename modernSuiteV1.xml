@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Applitools Traditional Regression Suite">
+    <parameter name="apiKey" value="apikey"/>
+    <test name="ModernTestV1">
+        <parameter name="version" value="v1"/>
+        <classes>
+            <class name="com.natasha.applitools.modernTests.ModernTestV1"/>
+        </classes>
+    </test>
+</suite>

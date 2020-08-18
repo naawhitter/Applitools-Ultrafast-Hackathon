@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="532.754" tests="126" errors="0" skipped="0" failures="53">
+  <properties>
+    <property name="java.specification.version" value="13"/>
+    <property name="webdriver.chrome.driver" value="/Users/natashawhitter/.m2/repository/webdriver/chromedriver/mac64/83.0.4103.39/chromedriver"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/natashawhitter/Projects/Applitools/Applitools-Hackathon-2020/target/test-classes:/Users/natashawhitter/Projects/Applitools/Applitools-Hackathon-2020/target/classes:/Users/natashawhitter/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/natashawhitter/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/natashawhitter/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/natashawhitter/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/natashawhitter/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/natashawhitter/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/natashawhitter/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/natashawhitter/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/natashawhitter/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/natashawhitter/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/natashawhitter/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/natashawhitter/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/natashawhitter/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/natashawhitter/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/natashawhitter/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/natashawhitter/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/natashawhitter/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/natashawhitter/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/natashawhitter/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/natashawhitter/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/natashawhitter/.m2/repository/io/github/bonigarcia/webdrivermanager/4.0.0/webdrivermanager-4.0.0.jar:/Users/natashawhitter/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/natashawhitter/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/natashawhitter/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/natashawhitter/.m2/repository/org/apache/commons/commons-lang3/3.10/commons-lang3-3.10.jar:/Users/natashawhitter/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0/httpclient5-5.0.jar:/Users/natashawhitter/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0/httpcore5-5.0.jar:/Users/natashawhitter/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0/httpcore5-h2-5.0.jar:/Users/natashawhitter/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/natashawhitter/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/natashawhitter/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/natashawhitter/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/natashawhitter/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.3.72/kotlin-stdlib-jdk8-1.3.72.jar:/Users/natashawhitter/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.3.72/kotlin-stdlib-1.3.72.jar:/Users/natashawhitter/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.72/kotlin-stdlib-common-1.3.72.jar:/Users/natashawhitter/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/Users/natashawhitter/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.3.72/kotlin-stdlib-jdk7-1.3.72.jar:/Users/natashawhitter/.m2/repository/org/jetbrains/kotlin/kotlin-test/1.3.72/kotlin-test-1.3.72.jar:/Users/natashawhitter/.m2/repository/org/jetbrains/kotlin/kotlin-test-common/1.3.72/kotlin-test-common-1.3.72.jar:/Users/natashawhitter/.m2/repository/com/applitools/eyes-selenium-java3/3.164.0/eyes-selenium-java3-3.164.0.jar:/Users/natashawhitter/.m2/repository/com/applitools/eyes-common-java3/3.164.0/eyes-common-java3-3.164.0.jar:/Users/natashawhitter/.m2/repository/org/imgscalr/imgscalr-lib/4.2/imgscalr-lib-4.2.jar:/Users/natashawhitter/.m2/repository/org/brotli/dec/0.1.1/dec-0.1.1.jar:/Users/natashawhitter/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.10.4/jackson-databind-2.9.10.4.jar:/Users/natashawhitter/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10.jar:/Users/natashawhitter/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10.jar:/Users/natashawhitter/.m2/repository/com/applitools/eyes-sdk-core-java3/3.164.0/eyes-sdk-core-java3-3.164.0.jar:/Users/natashawhitter/.m2/repository/com/applitools/eyes-connectivity-java3-jersey2x/3.164.0/eyes-connectivity-java3-jersey2x-3.164.0.jar:/Users/natashawhitter/.m2/repository/org/glassfish/jersey/connectors/jersey-apache-connector/2.29/jersey-apache-connector-2.29.jar:/Users/natashawhitter/.m2/repository/org/glassfish/jersey/core/jersey-common/2.29/jersey-common-2.29.jar:/Users/natashawhitter/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.4/jakarta.annotation-api-1.3.4.jar:/Users/natashawhitter/.m2/repository/org/glassfish/hk2/osgi-resource-locator/1.0.3/osgi-resource-locator-1.0.3.jar:/Users/natashawhitter/.m2/repository/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar:/Users/natashawhitter/.m2/repository/jakarta/ws/rs/jakarta.ws.rs-api/2.1.5/jakarta.ws.rs-api-2.1.5.jar:/Users/natashawhitter/.m2/repository/org/glassfish/jersey/core/jersey-client/2.29/jersey-client-2.29.jar:/Users/natashawhitter/.m2/repository/org/glassfish/hk2/external/jakarta.inject/2.5.0/jakarta.inject-2.5.0.jar:/Users/natashawhitter/.m2/repository/org/glassfish/jersey/inject/jersey-hk2/2.29/jersey-hk2-2.29.jar:/Users/natashawhitter/.m2/repository/org/glassfish/hk2/hk2-locator/2.5.0/hk2-locator-2.5.0.jar:/Users/natashawhitter/.m2/repository/org/glassfish/hk2/external/aopalliance-repackaged/2.5.0/aopalliance-repackaged-2.5.0.jar:/Users/natashawhitter/.m2/repository/org/glassfish/hk2/hk2-api/2.5.0/hk2-api-2.5.0.jar:/Users/natashawhitter/.m2/repository/org/glassfish/hk2/hk2-utils/2.5.0/hk2-utils-2.5.0.jar:/Users/natashawhitter/.m2/repository/org/javassist/javassist/3.22.0-CR2/javassist-3.22.0-CR2.jar:/Users/natashawhitter/.m2/repository/io/appium/java-client/7.0.0/java-client-7.0.0.jar:/Users/natashawhitter/.m2/repository/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar:/Users/natashawhitter/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar:/Users/natashawhitter/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/natashawhitter/.m2/repository/cglib/cglib/3.2.8/cglib-3.2.8.jar:/Users/natashawhitter/.m2/repository/org/ow2/asm/asm/6.2.1/asm-6.2.1.jar:/Users/natashawhitter/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/natashawhitter/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/natashawhitter/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/natashawhitter/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/natashawhitter/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/natashawhitter/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/natashawhitter/.m2/repository/org/springframework/spring-context/5.1.0.RELEASE/spring-context-5.1.0.RELEASE.jar:/Users/natashawhitter/.m2/repository/org/springframework/spring-aop/5.1.0.RELEASE/spring-aop-5.1.0.RELEASE.jar:/Users/natashawhitter/.m2/repository/org/springframework/spring-beans/5.1.0.RELEASE/spring-beans-5.1.0.RELEASE.jar:/Users/natashawhitter/.m2/repository/org/springframework/spring-core/5.1.0.RELEASE/spring-core-5.1.0.RELEASE.jar:/Users/natashawhitter/.m2/repository/org/springframework/spring-jcl/5.1.0.RELEASE/spring-jcl-5.1.0.RELEASE.jar:/Users/natashawhitter/.m2/repository/org/springframework/spring-expression/5.1.0.RELEASE/spring-expression-5.1.0.RELEASE.jar:/Users/natashawhitter/.m2/repository/org/aspectj/aspectjweaver/1.9.1/aspectjweaver-1.9.1.jar:/Users/natashawhitter/.m2/repository/com/helger/ph-css/6.1.1/ph-css-6.1.1.jar:/Users/natashawhitter/.m2/repository/com/helger/ph-commons/9.0.2/ph-commons-9.0.2.jar:/Users/natashawhitter/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/natashawhitter/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/natashawhitter/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/natashawhitter/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/natashawhitter/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/natashawhitter/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/natashawhitter/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/natashawhitter/Projects/Applitools/Applitools-Hackathon-2020/target/surefire/surefirebooter12558031457451325525.jar /Users/natashawhitter/Projects/Applitools/Applitools-Hackathon-2020/target/surefire 2020-07-06T12-23-47_033-jvmRun1 surefire11558347225555284491tmp surefire_05745105514172999990tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/natashawhitter/Projects/Applitools/Applitools-Hackathon-2020/target/test-classes:/Users/natashawhitter/Projects/Applitools/Applitools-Hackathon-2020/target/classes:/Users/natashawhitter/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/natashawhitter/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/natashawhitter/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/natashawhitter/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/natashawhitter/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/natashawhitter/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/natashawhitter/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/natashawhitter/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/natashawhitter/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/natashawhitter/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/natashawhitter/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/natashawhitter/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/natashawhitter/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/natashawhitter/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/natashawhitter/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/natashawhitter/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/natashawhitter/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/natashawhitter/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/natashawhitter/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/natashawhitter/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/natashawhitter/.m2/repository/io/github/bonigarcia/webdrivermanager/4.0.0/webdrivermanager-4.0.0.jar:/Users/natashawhitter/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/natashawhitter/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/natashawhitter/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/natashawhitter/.m2/repository/org/apache/commons/commons-lang3/3.10/commons-lang3-3.10.jar:/Users/natashawhitter/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0/httpclient5-5.0.jar:/Users/natashawhitter/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0/httpcore5-5.0.jar:/Users/natashawhitter/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0/httpcore5-h2-5.0.jar:/Users/natashawhitter/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/natashawhitter/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/natashawhitter/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/natashawhitter/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/natashawhitter/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.3.72/kotlin-stdlib-jdk8-1.3.72.jar:/Users/natashawhitter/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.3.72/kotlin-stdlib-1.3.72.jar:/Users/natashawhitter/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.72/kotlin-stdlib-common-1.3.72.jar:/Users/natashawhitter/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/Users/natashawhitter/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.3.72/kotlin-stdlib-jdk7-1.3.72.jar:/Users/natashawhitter/.m2/repository/org/jetbrains/kotlin/kotlin-test/1.3.72/kotlin-test-1.3.72.jar:/Users/natashawhitter/.m2/repository/org/jetbrains/kotlin/kotlin-test-common/1.3.72/kotlin-test-common-1.3.72.jar:/Users/natashawhitter/.m2/repository/com/applitools/eyes-selenium-java3/3.164.0/eyes-selenium-java3-3.164.0.jar:/Users/natashawhitter/.m2/repository/com/applitools/eyes-common-java3/3.164.0/eyes-common-java3-3.164.0.jar:/Users/natashawhitter/.m2/repository/org/imgscalr/imgscalr-lib/4.2/imgscalr-lib-4.2.jar:/Users/natashawhitter/.m2/repository/org/brotli/dec/0.1.1/dec-0.1.1.jar:/Users/natashawhitter/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.10.4/jackson-databind-2.9.10.4.jar:/Users/natashawhitter/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10.jar:/Users/natashawhitter/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10.jar:/Users/natashawhitter/.m2/repository/com/applitools/eyes-sdk-core-java3/3.164.0/eyes-sdk-core-java3-3.164.0.jar:/Users/natashawhitter/.m2/repository/com/applitools/eyes-connectivity-java3-jersey2x/3.164.0/eyes-connectivity-java3-jersey2x-3.164.0.jar:/Users/natashawhitter/.m2/repository/org/glassfish/jersey/connectors/jersey-apache-connector/2.29/jersey-apache-connector-2.29.jar:/Users/natashawhitter/.m2/repository/org/glassfish/jersey/core/jersey-common/2.29/jersey-common-2.29.jar:/Users/natashawhitter/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.4/jakarta.annotation-api-1.3.4.jar:/Users/natashawhitter/.m2/repository/org/glassfish/hk2/osgi-resource-locator/1.0.3/osgi-resource-locator-1.0.3.jar:/Users/natashawhitter/.m2/repository/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar:/Users/natashawhitter/.m2/repository/jakarta/ws/rs/jakarta.ws.rs-api/2.1.5/jakarta.ws.rs-api-2.1.5.jar:/Users/natashawhitter/.m2/repository/org/glassfish/jersey/core/jersey-client/2.29/jersey-client-2.29.jar:/Users/natashawhitter/.m2/repository/org/glassfish/hk2/external/jakarta.inject/2.5.0/jakarta.inject-2.5.0.jar:/Users/natashawhitter/.m2/repository/org/glassfish/jersey/inject/jersey-hk2/2.29/jersey-hk2-2.29.jar:/Users/natashawhitter/.m2/repository/org/glassfish/hk2/hk2-locator/2.5.0/hk2-locator-2.5.0.jar:/Users/natashawhitter/.m2/repository/org/glassfish/hk2/external/aopalliance-repackaged/2.5.0/aopalliance-repackaged-2.5.0.jar:/Users/natashawhitter/.m2/repository/org/glassfish/hk2/hk2-api/2.5.0/hk2-api-2.5.0.jar:/Users/natashawhitter/.m2/repository/org/glassfish/hk2/hk2-utils/2.5.0/hk2-utils-2.5.0.jar:/Users/natashawhitter/.m2/repository/org/javassist/javassist/3.22.0-CR2/javassist-3.22.0-CR2.jar:/Users/natashawhitter/.m2/repository/io/appium/java-client/7.0.0/java-client-7.0.0.jar:/Users/natashawhitter/.m2/repository/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar:/Users/natashawhitter/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar:/Users/natashawhitter/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/natashawhitter/.m2/repository/cglib/cglib/3.2.8/cglib-3.2.8.jar:/Users/natashawhitter/.m2/repository/org/ow2/asm/asm/6.2.1/asm-6.2.1.jar:/Users/natashawhitter/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/natashawhitter/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/natashawhitter/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/natashawhitter/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/natashawhitter/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/natashawhitter/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/natashawhitter/.m2/repository/org/springframework/spring-context/5.1.0.RELEASE/spring-context-5.1.0.RELEASE.jar:/Users/natashawhitter/.m2/repository/org/springframework/spring-aop/5.1.0.RELEASE/spring-aop-5.1.0.RELEASE.jar:/Users/natashawhitter/.m2/repository/org/springframework/spring-beans/5.1.0.RELEASE/spring-beans-5.1.0.RELEASE.jar:/Users/natashawhitter/.m2/repository/org/springframework/spring-core/5.1.0.RELEASE/spring-core-5.1.0.RELEASE.jar:/Users/natashawhitter/.m2/repository/org/springframework/spring-jcl/5.1.0.RELEASE/spring-jcl-5.1.0.RELEASE.jar:/Users/natashawhitter/.m2/repository/org/springframework/spring-expression/5.1.0.RELEASE/spring-expression-5.1.0.RELEASE.jar:/Users/natashawhitter/.m2/repository/org/aspectj/aspectjweaver/1.9.1/aspectjweaver-1.9.1.jar:/Users/natashawhitter/.m2/repository/com/helger/ph-css/6.1.1/ph-css-6.1.1.jar:/Users/natashawhitter/.m2/repository/com/helger/ph-commons/9.0.2/ph-commons-9.0.2.jar:/Users/natashawhitter/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/natashawhitter/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/natashawhitter/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/natashawhitter/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/natashawhitter/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/natashawhitter/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/natashawhitter/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/natashawhitter"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/natashawhitter/Projects/Applitools/Applitools-Hackathon-2020"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="idea.version2020.1.2" value="true"/>
+    <property name="surefire.real.class.path" value="/Users/natashawhitter/Projects/Applitools/Applitools-Hackathon-2020/target/surefire/surefirebooter12558031457451325525.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="13.0.1+9"/>
+    <property name="webdriver.edge.driver" value="/Users/natashawhitter/.m2/repository/webdriver/edgedriver/mac64/x64/83.0.478.44/msedgedriver"/>
+    <property name="user.name" value="natashawhitter"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.3"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/natashawhitter/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/_2/hnsvwjsn0xj03snhkw61ncpw0000gp/T/"/>
+    <property name="java.version" value="13.0.1"/>
+    <property name="user.dir" value="/Users/natashawhitter/Projects/Applitools/Applitools-Hackathon-2020"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="webdriver.gecko.driver" value="/Users/natashawhitter/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/natashawhitter/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="13.0.1+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="57.0"/>
+  </properties>
+  <testcase name="checkAddToCartButtonIsDisplayedOnTabletAndMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.064">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToCartButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:171)
+]]></failure>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 42089
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2020 12:23:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkAddToCartButtonIsDisplayedOnTabletAndMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.013">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToCartButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:173)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 42971
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2020 12:25:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkAddToCartButtonIsDisplayedOnTabletAndMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.01">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToCartButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:173)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 29573
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2020 12:26:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkAddToCartButtonIsDisplayedOnTabletAndMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.008">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToCartButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:171)
+]]></failure>
+    <system-err><![CDATA[1594034858240	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_2/hnsvwjsn0xj03snhkw61ncpw0000gp/T/rust_mozprofile8pWuQD"
+1594034859135	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1594034859347	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1594034859347	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1594034859347	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1594034859347	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1594034860924	Marionette	INFO	Listening on port 55680
+1594034861003	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jul 06, 2020 12:27:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkAddToCartButtonIsDisplayedOnTabletAndMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.005">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToCartButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:173)
+]]></failure>
+    <system-err><![CDATA[1594034977824	Marionette	INFO	Stopped listening on port 59025
+1594034980508	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_2/hnsvwjsn0xj03snhkw61ncpw0000gp/T/rust_mozprofilejIRWuX"
+1594034980860	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1594034981076	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1594034981076	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1594034981076	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1594034981076	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1594034982372	Marionette	INFO	Listening on port 59210
+1594034982392	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jul 06, 2020 12:29:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkAddToCartButtonIsDisplayedOnTabletAndMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.015">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToCartButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:171)
+]]></failure>
+    <system-err><![CDATA[1594035099812	Marionette	INFO	Stopped listening on port 62553
+Starting MSEdgeDriver 83.0.478.44 (dc53b89c303af22ab5f29be454b45270efbbc6c5) on port 16832
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping MSEdgeDriver safe.
+MSEdgeDriver was started successfully.
+OneAuth Version 0.17.0 (com.microsoft.Edge)
+Jul 06, 2020 12:31:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkAddToCompareButtonIsDisplayedOnTabletAndMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.013">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToCompareButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:158)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 27696
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2020 12:23:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkAddToCompareButtonIsDisplayedOnTabletAndMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.012">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToCompareButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:160)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 17286
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2020 12:25:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkAddToCompareButtonIsDisplayedOnTabletAndMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.011">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToCompareButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:160)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 16236
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2020 12:26:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkAddToCompareButtonIsDisplayedOnTabletAndMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.008">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToCompareButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:158)
+]]></failure>
+    <system-err><![CDATA[1594034862788	Marionette	INFO	Stopped listening on port 55680
+1594034864439	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_2/hnsvwjsn0xj03snhkw61ncpw0000gp/T/rust_mozprofilekky6uO"
+1594034864806	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1594034865013	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1594034865013	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1594034865013	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1594034865013	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1594034866325	Marionette	INFO	Listening on port 55849
+1594034866409	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jul 06, 2020 12:27:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkAddToCompareButtonIsDisplayedOnTabletAndMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.006">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToCompareButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:160)
+]]></failure>
+    <system-err><![CDATA[1594034984655	Marionette	INFO	Stopped listening on port 59210
+1594034986349	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_2/hnsvwjsn0xj03snhkw61ncpw0000gp/T/rust_mozprofiletSkh8f"
+1594034986696	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1594034986905	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1594034986905	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1594034986905	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1594034986905	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1594034988207	Marionette	INFO	Listening on port 59381
+1594034988242	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jul 06, 2020 12:29:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkAddToCompareButtonIsDisplayedOnTabletAndMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.011">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToCompareButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:158)
+]]></failure>
+    <system-err><![CDATA[Starting MSEdgeDriver 83.0.478.44 (dc53b89c303af22ab5f29be454b45270efbbc6c5) on port 7159
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping MSEdgeDriver safe.
+MSEdgeDriver was started successfully.
+OneAuth Version 0.17.0 (com.microsoft.Edge)
+Jul 06, 2020 12:31:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkAddToFavoriteButtonIsDisplayedOnTabletAndMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.012">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToFavoriteButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:145)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 6333
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2020 12:23:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkAddToFavoriteButtonIsDisplayedOnTabletAndMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.012">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToFavoriteButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:147)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 47166
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2020 12:25:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkAddToFavoriteButtonIsDisplayedOnTabletAndMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.011">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToFavoriteButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:147)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 42149
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2020 12:26:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkAddToFavoriteButtonIsDisplayedOnTabletAndMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.006">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToFavoriteButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:145)
+]]></failure>
+    <system-err><![CDATA[1594034868579	Marionette	INFO	Stopped listening on port 55849
+1594034870238	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_2/hnsvwjsn0xj03snhkw61ncpw0000gp/T/rust_mozprofilePcGBO1"
+1594034870586	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1594034870798	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1594034870798	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1594034870798	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1594034870798	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1594034872102	Marionette	INFO	Listening on port 55985
+1594034872184	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jul 06, 2020 12:27:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkAddToFavoriteButtonIsDisplayedOnTabletAndMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.006">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToFavoriteButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:147)
+]]></failure>
+    <system-err><![CDATA[1594034989932	Marionette	INFO	Stopped listening on port 59381
+1594034991657	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_2/hnsvwjsn0xj03snhkw61ncpw0000gp/T/rust_mozprofileaHxHK1"
+1594034992019	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1594034992227	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1594034992227	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1594034992228	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1594034992228	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1594034993607	Marionette	INFO	Listening on port 59503
+1594034993668	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jul 06, 2020 12:29:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkAddToFavoriteButtonIsDisplayedOnTabletAndMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.012">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToFavoriteButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:145)
+]]></failure>
+    <system-err><![CDATA[Starting MSEdgeDriver 83.0.478.44 (dc53b89c303af22ab5f29be454b45270efbbc6c5) on port 47070
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping MSEdgeDriver safe.
+MSEdgeDriver was started successfully.
+OneAuth Version 0.17.0 (com.microsoft.Edge)
+Jul 06, 2020 12:31:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkCartDisplaysTwoItemsOnlyOnMobileScreens" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.038"/>
+  <testcase name="checkCartDisplaysTwoItemsOnlyOnMobileScreens" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.025"/>
+  <testcase name="checkCartDisplaysTwoItemsOnlyOnMobileScreens" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.023"/>
+  <testcase name="checkCartDisplaysTwoItemsOnlyOnMobileScreens" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.02"/>
+  <testcase name="checkCartDisplaysTwoItemsOnlyOnMobileScreens" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.023"/>
+  <testcase name="checkCartDisplaysTwoItemsOnlyOnMobileScreens" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.024"/>
+  <testcase name="checkContactsSectionIsMinimisedOnMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.029"/>
+  <testcase name="checkContactsSectionIsMinimisedOnMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.024"/>
+  <testcase name="checkContactsSectionIsMinimisedOnMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.025"/>
+  <testcase name="checkContactsSectionIsMinimisedOnMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.023"/>
+  <testcase name="checkContactsSectionIsMinimisedOnMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.025"/>
+  <testcase name="checkContactsSectionIsMinimisedOnMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.026"/>
+  <testcase name="checkFilterButtonIsDisplayedOnTabletAndMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.029">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkFilterButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:80)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 12087
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2020 12:24:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkFilterButtonIsDisplayedOnTabletAndMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.026"/>
+  <testcase name="checkFilterButtonIsDisplayedOnTabletAndMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.025"/>
+  <testcase name="checkFilterButtonIsDisplayedOnTabletAndMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.026">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkFilterButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:80)
+]]></failure>
+    <system-err><![CDATA[1594034885472	Marionette	INFO	Stopped listening on port 56307
+1594034887119	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_2/hnsvwjsn0xj03snhkw61ncpw0000gp/T/rust_mozprofilehUnAtn"
+1594034887468	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1594034887680	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1594034887680	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1594034887680	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1594034887680	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1594034888992	Marionette	INFO	Listening on port 56475
+1594034889066	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jul 06, 2020 12:28:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkFilterButtonIsDisplayedOnTabletAndMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.022"/>
+  <testcase name="checkFilterButtonIsDisplayedOnTabletAndMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.031">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkFilterButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:80)
+]]></failure>
+    <system-err><![CDATA[Starting MSEdgeDriver 83.0.478.44 (dc53b89c303af22ab5f29be454b45270efbbc6c5) on port 20448
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping MSEdgeDriver safe.
+MSEdgeDriver was started successfully.
+OneAuth Version 0.17.0 (com.microsoft.Edge)
+Jul 06, 2020 12:31:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkFilterButtonLabelIsDisplayedOnTablet" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.03">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkFilterButtonLabelIsDisplayedOnTablet(CrossDeviceElementTest.kt:93)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 10297
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2020 12:24:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkFilterButtonLabelIsDisplayedOnTablet" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.025"/>
+  <testcase name="checkFilterButtonLabelIsDisplayedOnTablet" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.026"/>
+  <testcase name="checkFilterButtonLabelIsDisplayedOnTablet" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.023">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkFilterButtonLabelIsDisplayedOnTablet(CrossDeviceElementTest.kt:93)
+]]></failure>
+    <system-err><![CDATA[1594034890781	Marionette	INFO	Stopped listening on port 56475
+1594034892447	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_2/hnsvwjsn0xj03snhkw61ncpw0000gp/T/rust_mozprofileGtQlB6"
+1594034892801	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1594034893014	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1594034893014	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1594034893014	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1594034893014	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1594034894617	Marionette	INFO	Listening on port 56671
+1594034894645	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jul 06, 2020 12:28:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkFilterButtonLabelIsDisplayedOnTablet" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.023"/>
+  <testcase name="checkFilterButtonLabelIsDisplayedOnTablet" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.026">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkFilterButtonLabelIsDisplayedOnTablet(CrossDeviceElementTest.kt:93)
+]]></failure>
+    <system-err><![CDATA[Starting MSEdgeDriver 83.0.478.44 (dc53b89c303af22ab5f29be454b45270efbbc6c5) on port 5767
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping MSEdgeDriver safe.
+MSEdgeDriver was started successfully.
+OneAuth Version 0.17.0 (com.microsoft.Edge)
+Jul 06, 2020 12:31:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkFilterSideBarIsDisplayedOnDesktop" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.028"/>
+  <testcase name="checkFilterSideBarIsDisplayedOnDesktop" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.044"/>
+  <testcase name="checkFilterSideBarIsDisplayedOnDesktop" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.041"/>
+  <testcase name="checkFilterSideBarIsDisplayedOnDesktop" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.021"/>
+  <testcase name="checkFilterSideBarIsDisplayedOnDesktop" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.044"/>
+  <testcase name="checkFilterSideBarIsDisplayedOnDesktop" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.026"/>
+  <testcase name="checkKeepInTouchSectionIsMinimisedOnMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.028"/>
+  <testcase name="checkKeepInTouchSectionIsMinimisedOnMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.025"/>
+  <testcase name="checkKeepInTouchSectionIsMinimisedOnMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.022"/>
+  <testcase name="checkKeepInTouchSectionIsMinimisedOnMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.028"/>
+  <testcase name="checkKeepInTouchSectionIsMinimisedOnMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.023"/>
+  <testcase name="checkKeepInTouchSectionIsMinimisedOnMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.025"/>
+  <testcase name="checkMainMenuIsDisplayedOnDesktop" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.026"/>
+  <testcase name="checkMainMenuIsDisplayedOnDesktop" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.026"/>
+  <testcase name="checkMainMenuIsDisplayedOnDesktop" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.027"/>
+  <testcase name="checkMainMenuIsDisplayedOnDesktop" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.025"/>
+  <testcase name="checkMainMenuIsDisplayedOnDesktop" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.033"/>
+  <testcase name="checkMainMenuIsDisplayedOnDesktop" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.029"/>
+  <testcase name="checkQuickLinksSectionIsMinimisedOnMobileScreen" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.025"/>
+  <testcase name="checkQuickLinksSectionIsMinimisedOnMobileScreen" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.026"/>
+  <testcase name="checkQuickLinksSectionIsMinimisedOnMobileScreen" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.024"/>
+  <testcase name="checkQuickLinksSectionIsMinimisedOnMobileScreen" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.022"/>
+  <testcase name="checkQuickLinksSectionIsMinimisedOnMobileScreen" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.022"/>
+  <testcase name="checkQuickLinksSectionIsMinimisedOnMobileScreen" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.025"/>
+  <testcase name="checkSearchBarIsDisplayedOnDesktopAndTablet" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.025"/>
+  <testcase name="checkSearchBarIsDisplayedOnDesktopAndTablet" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.025"/>
+  <testcase name="checkSearchBarIsDisplayedOnDesktopAndTablet" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.028">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkSearchBarIsDisplayedOnDesktopAndTablet(CrossDeviceElementTest.kt:30)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 46407
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2020 12:26:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkSearchBarIsDisplayedOnDesktopAndTablet" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.024"/>
+  <testcase name="checkSearchBarIsDisplayedOnDesktopAndTablet" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.019"/>
+  <testcase name="checkSearchBarIsDisplayedOnDesktopAndTablet" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.029"/>
+  <testcase name="checkSearchButtonIsDisplayedOnTabletAndMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.024"/>
+  <testcase name="checkSearchButtonIsDisplayedOnTabletAndMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.025"/>
+  <testcase name="checkSearchButtonIsDisplayedOnTabletAndMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.023"/>
+  <testcase name="checkSearchButtonIsDisplayedOnTabletAndMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.022"/>
+  <testcase name="checkSearchButtonIsDisplayedOnTabletAndMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.023"/>
+  <testcase name="checkSearchButtonIsDisplayedOnTabletAndMobile" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.026"/>
+  <testcase name="checkViewByGridButtonIsDisplayedOnDesktop" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.026"/>
+  <testcase name="checkViewByGridButtonIsDisplayedOnDesktop" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.027">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkViewByGridButtonIsDisplayedOnDesktop(CrossDeviceElementTest.kt:121)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 30585
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2020 12:25:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkViewByGridButtonIsDisplayedOnDesktop" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.024">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkViewByGridButtonIsDisplayedOnDesktop(CrossDeviceElementTest.kt:121)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 13269
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2020 12:27:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkViewByGridButtonIsDisplayedOnDesktop" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.021"/>
+  <testcase name="checkViewByGridButtonIsDisplayedOnDesktop" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.025">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkViewByGridButtonIsDisplayedOnDesktop(CrossDeviceElementTest.kt:121)
+]]></failure>
+    <system-err><![CDATA[1594035049733	Marionette	INFO	Stopped listening on port 61202
+1594035051421	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_2/hnsvwjsn0xj03snhkw61ncpw0000gp/T/rust_mozprofilecdLENb"
+1594035051771	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1594035051979	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1594035051979	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1594035051979	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1594035051979	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1594035053292	Marionette	INFO	Listening on port 61368
+1594035053321	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jul 06, 2020 12:30:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkViewByGridButtonIsDisplayedOnDesktop" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.024"/>
+  <testcase name="checkViewByListButtonIsDisplayedOnDesktop" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.026"/>
+  <testcase name="checkViewByListButtonIsDisplayedOnDesktop" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.026">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkViewByListButtonIsDisplayedOnDesktop(CrossDeviceElementTest.kt:134)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 23710
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2020 12:25:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkViewByListButtonIsDisplayedOnDesktop" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.025">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkViewByListButtonIsDisplayedOnDesktop(CrossDeviceElementTest.kt:134)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 19769
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2020 12:27:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkViewByListButtonIsDisplayedOnDesktop" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.022"/>
+  <testcase name="checkViewByListButtonIsDisplayedOnDesktop" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.024">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkViewByListButtonIsDisplayedOnDesktop(CrossDeviceElementTest.kt:134)
+]]></failure>
+    <system-err><![CDATA[1594035055175	Marionette	INFO	Stopped listening on port 61368
+1594035056872	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_2/hnsvwjsn0xj03snhkw61ncpw0000gp/T/rust_mozprofileaV8Cdb"
+1594035057230	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1594035057441	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1594035057441	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1594035057442	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1594035057442	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1594035058741	Marionette	INFO	Listening on port 61539
+1594035058787	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jul 06, 2020 12:30:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkViewByListButtonIsDisplayedOnDesktop" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.028"/>
+  <testcase name="checkWishlistButtonIsDisplayedOnDesktop" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.023"/>
+  <testcase name="checkWishlistButtonIsDisplayedOnDesktop" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.029">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkWishlistButtonIsDisplayedOnDesktop(CrossDeviceElementTest.kt:56)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 40288
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2020 12:25:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkWishlistButtonIsDisplayedOnDesktop" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.024">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkWishlistButtonIsDisplayedOnDesktop(CrossDeviceElementTest.kt:56)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 10094
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2020 12:27:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkWishlistButtonIsDisplayedOnDesktop" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.024"/>
+  <testcase name="checkWishlistButtonIsDisplayedOnDesktop" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.022">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkWishlistButtonIsDisplayedOnDesktop(CrossDeviceElementTest.kt:56)
+]]></failure>
+    <system-err><![CDATA[1594035060650	Marionette	INFO	Stopped listening on port 61539
+1594035062344	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_2/hnsvwjsn0xj03snhkw61ncpw0000gp/T/rust_mozprofileUkjaav"
+1594035062693	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1594035062900	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1594035062900	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1594035062900	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1594035062900	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1594035064201	Marionette	INFO	Listening on port 61706
+1594035064232	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jul 06, 2020 12:31:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkWishlistButtonIsDisplayedOnDesktop" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest" time="0.028"/>
+  <testcase name="checkTwoBlackShoesAreDisplayedWhenFilteredByColourBlack" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest" time="0.173">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest.checkTwoBlackShoesAreDisplayedWhenFilteredByColourBlack(ShoppingExperienceTest.kt:14)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 8650
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2020 12:24:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkTwoBlackShoesAreDisplayedWhenFilteredByColourBlack" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest" time="0.747">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest.checkTwoBlackShoesAreDisplayedWhenFilteredByColourBlack(ShoppingExperienceTest.kt:14)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 16092
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2020 12:25:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkTwoBlackShoesAreDisplayedWhenFilteredByColourBlack" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest" time="0.922">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest.checkTwoBlackShoesAreDisplayedWhenFilteredByColourBlack(ShoppingExperienceTest.kt:14)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 18710
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2020 12:27:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkTwoBlackShoesAreDisplayedWhenFilteredByColourBlack" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest" time="0.516">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest.checkTwoBlackShoesAreDisplayedWhenFilteredByColourBlack(ShoppingExperienceTest.kt:14)
+]]></failure>
+    <system-err><![CDATA[1594034945077	Marionette	INFO	Stopped listening on port 58169
+1594034946802	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_2/hnsvwjsn0xj03snhkw61ncpw0000gp/T/rust_mozprofileENBgJX"
+1594034947151	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1594034947360	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1594034947360	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1594034947360	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1594034947360	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1594034948653	Marionette	INFO	Listening on port 58340
+1594034948697	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jul 06, 2020 12:29:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkTwoBlackShoesAreDisplayedWhenFilteredByColourBlack" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest" time="1.093">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest.checkTwoBlackShoesAreDisplayedWhenFilteredByColourBlack(ShoppingExperienceTest.kt:14)
+]]></failure>
+    <system-err><![CDATA[1594035065982	Marionette	INFO	Stopped listening on port 61706
+1594035067684	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_2/hnsvwjsn0xj03snhkw61ncpw0000gp/T/rust_mozprofiletR4Pfi"
+1594035068045	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1594035068257	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1594035068257	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1594035068257	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1594035068257	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1594035069553	Marionette	INFO	Listening on port 61871
+1594035069592	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jul 06, 2020 12:31:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkTwoBlackShoesAreDisplayedWhenFilteredByColourBlack" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest" time="0.19">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest.checkTwoBlackShoesAreDisplayedWhenFilteredByColourBlack(ShoppingExperienceTest.kt:14)
+]]></failure>
+    <system-err><![CDATA[Starting MSEdgeDriver 83.0.478.44 (dc53b89c303af22ab5f29be454b45270efbbc6c5) on port 8781
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping MSEdgeDriver safe.
+MSEdgeDriver was started successfully.
+OneAuth Version 0.17.0 (com.microsoft.Edge)
+Jul 06, 2020 12:32:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkItemModelValueIsDisplayed" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest" time="1.005"/>
+  <testcase name="checkItemModelValueIsDisplayed" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest" time="1.684"/>
+  <testcase name="checkItemModelValueIsDisplayed" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest" time="1.921"/>
+  <testcase name="checkItemModelValueIsDisplayed" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest" time="0.933"/>
+  <testcase name="checkItemModelValueIsDisplayed" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest" time="1.446"/>
+  <testcase name="checkItemModelValueIsDisplayed" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest" time="0.693"/>
+  <testcase name="checkNewPriceHasDecimals" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest" time="0.981">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest.checkNewPriceHasDecimals(ProductDetailsTest.kt:32)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 3809
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2020 12:24:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkNewPriceHasDecimals" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest" time="1.705">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest.checkNewPriceHasDecimals(ProductDetailsTest.kt:32)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 36090
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2020 12:26:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkNewPriceHasDecimals" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest" time="1.923">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest.checkNewPriceHasDecimals(ProductDetailsTest.kt:32)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 40356
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2020 12:27:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkNewPriceHasDecimals" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest" time="0.954">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest.checkNewPriceHasDecimals(ProductDetailsTest.kt:32)
+]]></failure>
+    <system-err><![CDATA[1594034958113	Marionette	INFO	Stopped listening on port 58509
+1594034959790	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_2/hnsvwjsn0xj03snhkw61ncpw0000gp/T/rust_mozprofileK3x7l1"
+1594034960140	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1594034960352	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1594034960352	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1594034960352	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1594034960352	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1594034961627	Marionette	INFO	Listening on port 58682
+1594034961684	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jul 06, 2020 12:29:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkNewPriceHasDecimals" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest" time="1.433">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest.checkNewPriceHasDecimals(ProductDetailsTest.kt:32)
+]]></failure>
+    <system-err><![CDATA[1594035079314	Marionette	INFO	Stopped listening on port 62033
+1594035080977	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_2/hnsvwjsn0xj03snhkw61ncpw0000gp/T/rust_mozprofilekMnRX7"
+1594035081332	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1594035081539	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1594035081539	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1594035081539	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1594035081539	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1594035082806	Marionette	INFO	Listening on port 62201
+1594035082875	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jul 06, 2020 12:31:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkNewPriceHasDecimals" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest" time="0.671">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest.checkNewPriceHasDecimals(ProductDetailsTest.kt:32)
+]]></failure>
+    <system-err><![CDATA[Starting MSEdgeDriver 83.0.478.44 (dc53b89c303af22ab5f29be454b45270efbbc6c5) on port 19260
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping MSEdgeDriver safe.
+MSEdgeDriver was started successfully.
+OneAuth Version 0.17.0 (com.microsoft.Edge)
+Jul 06, 2020 12:32:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkOldPriceHasCssValueLineThrough" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest" time="1.044"/>
+  <testcase name="checkOldPriceHasCssValueLineThrough" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest" time="1.762"/>
+  <testcase name="checkOldPriceHasCssValueLineThrough" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest" time="1.916">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest.checkOldPriceHasCssValueLineThrough(ProductDetailsTest.kt:41)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 30461
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2020 12:27:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkOldPriceHasCssValueLineThrough" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest" time="0.904"/>
+  <testcase name="checkOldPriceHasCssValueLineThrough" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest" time="1.431"/>
+  <testcase name="checkOldPriceHasCssValueLineThrough" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest" time="0.664"/>
+  <testcase name="checkSizeSmallValueEqualsSmallS" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest" time="1.017">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest.checkSizeSmallValueEqualsSmallS(ProductDetailsTest.kt:23)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 34361
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2020 12:25:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkSizeSmallValueEqualsSmallS" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest" time="1.712">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest.checkSizeSmallValueEqualsSmallS(ProductDetailsTest.kt:23)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 48909
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2020 12:26:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkSizeSmallValueEqualsSmallS" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest" time="1.913">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest.checkSizeSmallValueEqualsSmallS(ProductDetailsTest.kt:23)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 41098
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2020 12:27:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkSizeSmallValueEqualsSmallS" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest" time="0.948">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest.checkSizeSmallValueEqualsSmallS(ProductDetailsTest.kt:23)
+]]></failure>
+    <system-err><![CDATA[1594034971290	Marionette	INFO	Stopped listening on port 58855
+1594034973000	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_2/hnsvwjsn0xj03snhkw61ncpw0000gp/T/rust_mozprofile3fs9Oh"
+1594034973358	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1594034973595	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1594034973595	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1594034973595	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1594034973595	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1594034974861	Marionette	INFO	Listening on port 59025
+1594034974889	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jul 06, 2020 12:29:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkSizeSmallValueEqualsSmallS" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest" time="1.453">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest.checkSizeSmallValueEqualsSmallS(ProductDetailsTest.kt:23)
+]]></failure>
+    <system-err><![CDATA[1594035092875	Marionette	INFO	Stopped listening on port 62379
+1594035094572	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_2/hnsvwjsn0xj03snhkw61ncpw0000gp/T/rust_mozprofile3iXPPg"
+1594035094928	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1594035095144	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1594035095144	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1594035095144	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1594035095144	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1594035096416	Marionette	INFO	Listening on port 62553
+1594035096487	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jul 06, 2020 12:31:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkSizeSmallValueEqualsSmallS" classname="com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest" time="0.659">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest.checkSizeSmallValueEqualsSmallS(ProductDetailsTest.kt:23)
+]]></failure>
+    <system-err><![CDATA[Starting MSEdgeDriver 83.0.478.44 (dc53b89c303af22ab5f29be454b45270efbbc6c5) on port 27492
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping MSEdgeDriver safe.
+MSEdgeDriver was started successfully.
+OneAuth Version 0.17.0 (com.microsoft.Edge)
+Jul 06, 2020 12:32:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

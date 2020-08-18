@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="com.natasha.applitools.traditionalTests.traditionalV2.TaskThreeProductDetailsTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="checkSizeSmallValueIsEqualsSmallS"/>
+          <include name="checkItemModelValueIsDisplayed"/>
+          <include name="checkNewPriceHasDecimals"/>
+          <include name="quitDriver"/>
+          <include name="checkOldPriceHasCssValueLineThrough"/>
+        </methods>
+      </class> <!-- com.natasha.applitools.traditionalTests.traditionalV2.TaskThreeProductDetailsTest -->
+      <class name="com.natasha.applitools.modernTests.modernTestV1.TaskTwoShoppingExperienceTest">
+        <methods>
+          <include name="checkOnlyBlackShoesDisplayedWhenFilterByColorBlack"/>
+          <include name="launchBrowser"/>
+          <include name="quitDriver"/>
+          <include name="beforeTestSuite"/>
+        </methods>
+      </class> <!-- com.natasha.applitools.modernTests.modernTestV1.TaskTwoShoppingExperienceTest -->
+      <class name="com.natasha.applitools.modernTests.modernTestV2.ShoppingExperienceTest">
+        <methods>
+          <include name="checkOnlyBlackShoesDisplayedWhenFilterByColorBlack"/>
+          <include name="launchBrowser"/>
+          <include name="quitDriver"/>
+          <include name="beforeTestSuite"/>
+        </methods>
+      </class> <!-- com.natasha.applitools.modernTests.modernTestV2.ShoppingExperienceTest -->
+      <class name="com.natasha.applitools.modernTests.modernTestV2.TaskTwoShoppingExperienceTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="quitDriver"/>
+          <include name="checkOnlyBlackShoesDisplayedWhenFilterByColorBlack"/>
+          <include name="beforeTestSuite"/>
+        </methods>
+      </class> <!-- com.natasha.applitools.modernTests.modernTestV2.TaskTwoShoppingExperienceTest -->
+      <class name="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest">
+        <methods>
+          <include name="checkFilterButtonIsDisplayedOnlyOnTabletAndMobileScreens"/>
+          <include name="checkGridViewButtonIsDisplayedOnlyOnDesktopScreens"/>
+          <include name="checkWishlistIsDisplayedOnlyOnDesktopScreens"/>
+          <include name="checkMainMenuIsDisplayedOnlyOnDesktopScreens"/>
+          <include name="openBrowser"/>
+          <include name="checkCartDisplaysTwoItemsOnlyOnMobileScreens"/>
+          <include name="checkSearchBoxIsDisplayedOnlyOnDesktopAndTabletScreens"/>
+          <include name="checkAddToCompareButtonIsDisplayedOnlyOnTabletAndMobileScreens"/>
+          <include name="checkFilterSideBarIsDisplayedOnlyOnDesktopScreens"/>
+          <include name="checkFilterButtonLabelIsDisplayedOnlyOnTabletScreens"/>
+          <include name="checkSearchButtonIsDisplayedOnlyOnTabletAndMobileScreens"/>
+          <include name="quitDriver"/>
+          <include name="checkListViewButtonIsDisplayedOnlyOnDesktopScreens"/>
+          <include name="checkAddToFavoriteButtonIsDisplayedOnlyOnTabletAndMobileScreens"/>
+          <include name="checkKeepInTouchInFooterIsMinimisedOnlyOnMobileScreen"/>
+          <include name="checkAddToCartButtonIsDisplayedOnlyOnTabletAndMobileScreens"/>
+          <include name="checkContactsInFooterIsMinimisedOnlyOnMobileScreen"/>
+          <include name="checkQuickLinksInFooterIsMinimisedOnlyOnMobileScreen"/>
+        </methods>
+      </class> <!-- com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest -->
+      <class name="com.natasha.applitools.modernTests.modernTestV1.TaskOneCrossDeviceElementTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="quitDriver"/>
+          <include name="checkLandingPageIsDisplayedCorrectly"/>
+          <include name="beforeTestSuite"/>
+        </methods>
+      </class> <!-- com.natasha.applitools.modernTests.modernTestV1.TaskOneCrossDeviceElementTest -->
+      <class name="com.natasha.applitools.modernTests.modernTestV2.ProductDetailsTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="quitDriver"/>
+          <include name="beforeTestSuite"/>
+          <include name="checkProductDetails"/>
+        </methods>
+      </class> <!-- com.natasha.applitools.modernTests.modernTestV2.ProductDetailsTest -->
+      <class name="com.natasha.applitools.modernTests.modernTestV2.CrossDeviceElementTest">
+        <methods>
+          <include name="checkLandingPageIsDisplayedCorrectly"/>
+          <include name="launchBrowser"/>
+          <include name="quitDriver"/>
+          <include name="beforeTestSuite"/>
+        </methods>
+      </class> <!-- com.natasha.applitools.modernTests.modernTestV2.CrossDeviceElementTest -->
+      <class name="com.natasha.applitools.modernTests.modernTestV1.TaskThreeProductDetailsTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="quitDriver"/>
+          <include name="checkProductDetails"/>
+          <include name="beforeTestSuite"/>
+        </methods>
+      </class> <!-- com.natasha.applitools.modernTests.modernTestV1.TaskThreeProductDetailsTest -->
+      <class name="com.natasha.applitools.modernTests.modernTestV1.CrossDeviceElementTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="quitDriver"/>
+          <include name="checkLandingPageIsDisplayedCorrectly"/>
+          <include name="beforeTestSuite"/>
+        </methods>
+      </class> <!-- com.natasha.applitools.modernTests.modernTestV1.CrossDeviceElementTest -->
+      <class name="com.natasha.applitools.traditionalTests.traditionalV2.TaskOneCrossDeviceElementTest">
+        <methods>
+          <include name="checkFilterSideBarIsDisplayedOnlyOnDesktopScreens"/>
+          <include name="checkFilterButtonLabelIsDisplayedOnlyOnTabletScreens"/>
+          <include name="checkListViewButtonIsDisplayedOnlyOnDesktopScreens"/>
+          <include name="checkFilterButtonIsDisplayedOnlyOnTabletAndMobileScreens"/>
+          <include name="openBrowser"/>
+          <include name="checkWishlistIsDisplayedOnlyOnDesktopScreens"/>
+          <include name="checkSearchBoxIsDisplayedOnlyOnDesktopAndTabletScreens"/>
+          <include name="quitDriver"/>
+          <include name="checkContactsInFooterIsMinimisedOnlyOnMobileScreen"/>
+          <include name="checkGridViewButtonIsDisplayedOnlyOnDesktopScreens"/>
+          <include name="checkMainMenuIsDisplayedOnlyOnDesktopScreens"/>
+          <include name="checkSearchButtonIsDisplayedOnlyOnTabletAndMobileScreens"/>
+          <include name="checkCartDisplaysTwoItemsOnlyOnMobileScreens"/>
+          <include name="checkAddToFavoriteButtonIsDisplayedOnlyOnTabletAndMobileScreens"/>
+          <include name="checkQuickLinksInFooterIsMinimisedOnlyOnMobileScreen"/>
+          <include name="checkAddToCartButtonIsDisplayedOnlyOnTabletAndMobileScreens"/>
+          <include name="checkKeepInTouchInFooterIsMinimisedOnlyOnMobileScreen"/>
+          <include name="checkAddToCompareButtonIsDisplayedOnlyOnTabletAndMobileScreens"/>
+        </methods>
+      </class> <!-- com.natasha.applitools.traditionalTests.traditionalV2.TaskOneCrossDeviceElementTest -->
+      <class name="com.natasha.applitools.modernTests.modernTestV1.ShoppingExperienceTest">
+        <methods>
+          <include name="checkOnlyBlackShoesDisplayedWhenFilterByColorBlack"/>
+          <include name="launchBrowser"/>
+          <include name="quitDriver"/>
+          <include name="beforeTestSuite"/>
+        </methods>
+      </class> <!-- com.natasha.applitools.modernTests.modernTestV1.ShoppingExperienceTest -->
+      <class name="com.natasha.applitools.traditionalTests.traditionalTestV1.ShoppingExperienceTest">
+        <methods>
+          <include name="checkOnlyBlackShoesDisplayedWhenFilterByColorBlack"/>
+          <include name="openBrowser"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- com.natasha.applitools.traditionalTests.traditionalTestV1.ShoppingExperienceTest -->
+      <class name="com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="quitDriver"/>
+          <include name="checkOnlyBlackShoesDisplayedWhenFilterByColorBlack"/>
+        </methods>
+      </class> <!-- com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest -->
+      <class name="com.natasha.applitools.modernTests.modernTestV2.TaskOneCrossDeviceElementTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="quitDriver"/>
+          <include name="checkLandingPageIsDisplayedCorrectly"/>
+          <include name="beforeTestSuite"/>
+        </methods>
+      </class> <!-- com.natasha.applitools.modernTests.modernTestV2.TaskOneCrossDeviceElementTest -->
+      <class name="com.natasha.applitools.traditionalTests.traditionalTestV1.CrossDeviceElementTest">
+        <methods>
+          <include name="checkSearchBoxIsDisplayedOnlyOnDesktopAndTabletScreens"/>
+          <include name="checkWishlistIsDisplayedOnlyOnDesktopScreens"/>
+          <include name="checkSearchButtonIsDisplayedOnlyOnTabletAndMobileScreens"/>
+          <include name="checkAddToCompareButtonIsDisplayedOnlyOnTabletAndMobileScreens"/>
+          <include name="checkCartDisplaysTwoItemsOnlyOnDesktopAndTabletScreens"/>
+          <include name="checkGridViewButtonIsDisplayedOnlyOnDesktopScreens"/>
+          <include name="checkMainMenuIsDisplayedOnlyOnDesktopScreens"/>
+          <include name="openBrowser"/>
+          <include name="checkListViewButtonIsDisplayedOnlyOnDesktopScreens"/>
+          <include name="checkFilterButtonLabelIsDisplayedOnlyOnTabletScreens"/>
+          <include name="checkFilterSideBarIsDisplayedOnlyOnDesktopScreens"/>
+          <include name="quitDriver"/>
+          <include name="checkFilterButtonIsDisplayedOnlyOnTabletAndMobileScreens"/>
+          <include name="checkAddToCartButtonIsDisplayedOnlyOnTabletAndMobileScreens"/>
+          <include name="checkKeepInTouchInFooterIsMinimisedOnlyOnMobileScreen"/>
+          <include name="checkContactsInFooterIsMinimisedOnlyOnMobileScreen"/>
+          <include name="checkQuickLinksInFooterIsMinimisedOnlyOnMobileScreen"/>
+          <include name="checkAddToFavoriteButtonIsDisplayedOnlyOnTabletAndMobileScreens"/>
+        </methods>
+      </class> <!-- com.natasha.applitools.traditionalTests.traditionalTestV1.CrossDeviceElementTest -->
+      <class name="com.natasha.applitools.modernTests.modernTestV2.TaskThreeProductDetailsTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="quitDriver"/>
+          <include name="beforeTestSuite"/>
+          <include name="checkProductDetails"/>
+        </methods>
+      </class> <!-- com.natasha.applitools.modernTests.modernTestV2.TaskThreeProductDetailsTest -->
+      <class name="com.natasha.applitools.traditionalTests.traditionalV2.TaskTwoShoppingExperienceTest">
+        <methods>
+          <include name="checkOnlyBlackShoesDisplayedWhenFilterByColorBlack"/>
+          <include name="openBrowser"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- com.natasha.applitools.traditionalTests.traditionalV2.TaskTwoShoppingExperienceTest -->
+      <class name="com.natasha.applitools.traditionalTests.traditionalTestV1.ProductDetailsTest">
+        <methods>
+          <include name="checkOldPriceHasCssValueLineThrough"/>
+          <include name="checkNewPriceHasDecimals"/>
+          <include name="checkItemModelValueIsDisplayed"/>
+          <include name="openBrowser"/>
+          <include name="checkSizeSmallValueIsEqualsSmallS"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- com.natasha.applitools.traditionalTests.traditionalTestV1.ProductDetailsTest -->
+      <class name="com.natasha.applitools.modernTests.modernTestV1.ProductDetailsTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="quitDriver"/>
+          <include name="checkProductDetails"/>
+          <include name="beforeTestSuite"/>
+        </methods>
+      </class> <!-- com.natasha.applitools.modernTests.modernTestV1.ProductDetailsTest -->
+      <class name="com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest">
+        <methods>
+          <include name="checkItemModelValueIsDisplayed"/>
+          <include name="checkOldPriceHasCssValueLineThrough"/>
+          <include name="checkNewPriceHasDecimals"/>
+          <include name="openBrowser"/>
+          <include name="quitDriver"/>
+          <include name="checkSizeSmallValueIsEqualsSmallS"/>
+        </methods>
+      </class> <!-- com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

@@ -1,0 +1,126 @@
+Task: 1, Test Name: Add to cart button is displayed on tablet and mobile, DOM Id: #I__tishopping__233, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: Add to compare button is displayed on tablet and mobile, DOM Id: #I__ticontrols__229, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: Add to favorite button is displayed on tablet and mobile, DOM Id: #I__tiheart__225, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: Cart displays two items on desktop and tablet, DOM Id: #STRONG____50, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: Contacts section is minimised on mobile, DOM Id: #collapse_3, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: Filter button is displayed on tablet and mobile, DOM Id: #ti-filter, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: Filter button label is displayed on tablet, DOM Id: #SPAN____208, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: Filter sidebar is displayed on desktop, DOM Id: #filter_col, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: keep in touch section is minimised on mobile, DOM Id: #collapse_4, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: Main menu is displayed on desktop, DOM Id: #DIV__mainmenu__15, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: Quick links section is minimised on mobile, DOM Id: #collapse_1, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: Search bar is displayed on desktop and tablet, DOM Id: #DIV__customsear__41, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: Search button is displayed on tablet and mobile, DOM Id: #A__btnsearchm__59, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: View by grid button is displayed only on desktop, DOM Id: #I__tiviewgrid__202, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: View by list button is displayed on desktop, DOM Id: #I__tiviewlist__204, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: WishList button is displayed on desktop, DOM Id: #A__wishlist__52, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 2, Test Name: 2 black shoes are displayed when filtered by colour black, DOM Id: #product_grid .grid_item, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 3, Test Name: Item code is displayed, DOM Id: #SMALL____84, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 3, Test Name: New price value equals $33.00, DOM Id: #new_price, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 3, Test Name: Old price has text decoration value 'line-Through', DOM Id: #old_price, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 3, Test Name: Small size value equals 'Small (S)', DOM Id: .current, Browser: chrome, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: Add to cart button is displayed on tablet and mobile, DOM Id: #I__tishopping__233, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 1, Test Name: Add to compare button is displayed on tablet and mobile, DOM Id: #I__ticontrols__229, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 1, Test Name: Add to favorite button is displayed on tablet and mobile, DOM Id: #I__tiheart__225, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 1, Test Name: Cart displays two items on desktop and tablet, DOM Id: #STRONG____50, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 1, Test Name: Contacts section is minimised on mobile, DOM Id: #collapse_3, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 1, Test Name: Filter button is displayed on tablet and mobile, DOM Id: #ti-filter, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 1, Test Name: Filter button label is displayed on tablet, DOM Id: #SPAN____208, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 1, Test Name: Filter sidebar is displayed on desktop, DOM Id: #filter_col, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 1, Test Name: keep in touch section is minimised on mobile, DOM Id: #collapse_4, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 1, Test Name: Main menu is displayed on desktop, DOM Id: #DIV__mainmenu__15, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 1, Test Name: Quick links section is minimised on mobile, DOM Id: #collapse_1, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 1, Test Name: Search bar is displayed on desktop and tablet, DOM Id: #DIV__customsear__41, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 1, Test Name: Search button is displayed on tablet and mobile, DOM Id: #A__btnsearchm__59, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 1, Test Name: View by grid button is displayed only on desktop, DOM Id: #I__tiviewgrid__202, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 1, Test Name: View by list button is displayed on desktop, DOM Id: #I__tiviewlist__204, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 1, Test Name: WishList button is displayed on desktop, DOM Id: #A__wishlist__52, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 2, Test Name: 2 black shoes are displayed when filtered by colour black, DOM Id: #product_grid .grid_item, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 3, Test Name: Item code is displayed, DOM Id: #SMALL____84, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 3, Test Name: New price value equals $33.00, DOM Id: #new_price, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 3, Test Name: Old price has text decoration value 'line-Through', DOM Id: #old_price, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 3, Test Name: Small size value equals 'Small (S)', DOM Id: .current, Browser: chrome, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 1, Test Name: Add to cart button is displayed on tablet and mobile, DOM Id: #I__tishopping__233, Browser: chrome, Viewport: 500 x 700, Device: mobile, Status: Pass
+Task: 1, Test Name: Add to compare button is displayed on tablet and mobile, DOM Id: #I__ticontrols__229, Browser: chrome, Viewport: 500 x 700, Device: mobile, Status: Pass
+Task: 1, Test Name: Add to favorite button is displayed on tablet and mobile, DOM Id: #I__tiheart__225, Browser: chrome, Viewport: 500 x 700, Device: mobile, Status: Pass
+Task: 1, Test Name: Cart displays two items on desktop and tablet, DOM Id: #STRONG____50, Browser: chrome, Viewport: 500 x 700, Device: mobile, Status: Pass
+Task: 1, Test Name: Contacts section is minimised on mobile, DOM Id: #collapse_3, Browser: chrome, Viewport: 500 x 700, Device: mobile, Status: Pass
+Task: 1, Test Name: Filter button is displayed on tablet and mobile, DOM Id: #ti-filter, Browser: chrome, Viewport: 500 x 700, Device: mobile, Status: Pass
+Task: 1, Test Name: Filter button label is displayed on tablet, DOM Id: #SPAN____208, Browser: chrome, Viewport: 500 x 700, Device: mobile, Status: Pass
+Task: 1, Test Name: Filter sidebar is displayed on desktop, DOM Id: #filter_col, Browser: chrome, Viewport: 500 x 700, Device: mobile, Status: Pass
+Task: 1, Test Name: keep in touch section is minimised on mobile, DOM Id: #collapse_4, Browser: chrome, Viewport: 500 x 700, Device: mobile, Status: Pass
+Task: 1, Test Name: Main menu is displayed on desktop, DOM Id: #DIV__mainmenu__15, Browser: chrome, Viewport: 500 x 700, Device: mobile, Status: Pass
+Task: 1, Test Name: Quick links section is minimised on mobile, DOM Id: #collapse_1, Browser: chrome, Viewport: 500 x 700, Device: mobile, Status: Pass
+Task: 1, Test Name: Search bar is displayed on desktop and tablet, DOM Id: #DIV__customsear__41, Browser: chrome, Viewport: 500 x 700, Device: mobile, Status: Pass
+Task: 1, Test Name: Search button is displayed on tablet and mobile, DOM Id: #A__btnsearchm__59, Browser: chrome, Viewport: 500 x 700, Device: mobile, Status: Pass
+Task: 1, Test Name: View by grid button is displayed only on desktop, DOM Id: #I__tiviewgrid__202, Browser: chrome, Viewport: 500 x 700, Device: mobile, Status: Pass
+Task: 1, Test Name: View by list button is displayed on desktop, DOM Id: #I__tiviewlist__204, Browser: chrome, Viewport: 500 x 700, Device: mobile, Status: Pass
+Task: 1, Test Name: WishList button is displayed on desktop, DOM Id: #A__wishlist__52, Browser: chrome, Viewport: 500 x 700, Device: mobile, Status: Pass
+Task: 2, Test Name: 2 black shoes are displayed when filtered by colour black, DOM Id: #product_grid .grid_item, Browser: chrome, Viewport: 500 x 700, Device: mobile, Status: Pass
+Task: 3, Test Name: Item code is displayed, DOM Id: #SMALL____84, Browser: chrome, Viewport: 500 x 700, Device: mobile, Status: Pass
+Task: 3, Test Name: New price value equals $33.00, DOM Id: #new_price, Browser: chrome, Viewport: 500 x 700, Device: mobile, Status: Pass
+Task: 3, Test Name: Old price has text decoration value 'line-Through', DOM Id: #old_price, Browser: chrome, Viewport: 500 x 700, Device: mobile, Status: Pass
+Task: 3, Test Name: Small size value equals 'Small (S)', DOM Id: .current, Browser: chrome, Viewport: 500 x 700, Device: mobile, Status: Pass
+Task: 1, Test Name: Add to cart button is displayed on tablet and mobile, DOM Id: #I__tishopping__233, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: Add to compare button is displayed on tablet and mobile, DOM Id: #I__ticontrols__229, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: Add to favorite button is displayed on tablet and mobile, DOM Id: #I__tiheart__225, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: Cart displays two items on desktop and tablet, DOM Id: #STRONG____50, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: Contacts section is minimised on mobile, DOM Id: #collapse_3, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: Filter button is displayed on tablet and mobile, DOM Id: #ti-filter, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: Filter button label is displayed on tablet, DOM Id: #SPAN____208, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: Filter sidebar is displayed on desktop, DOM Id: #filter_col, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: keep in touch section is minimised on mobile, DOM Id: #collapse_4, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: Main menu is displayed on desktop, DOM Id: #DIV__mainmenu__15, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: Quick links section is minimised on mobile, DOM Id: #collapse_1, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: Search bar is displayed on desktop and tablet, DOM Id: #DIV__customsear__41, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: Search button is displayed on tablet and mobile, DOM Id: #A__btnsearchm__59, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: View by grid button is displayed only on desktop, DOM Id: #I__tiviewgrid__202, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: View by list button is displayed on desktop, DOM Id: #I__tiviewlist__204, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: WishList button is displayed on desktop, DOM Id: #A__wishlist__52, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 2, Test Name: 2 black shoes are displayed when filtered by colour black, DOM Id: #product_grid .grid_item, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 3, Test Name: Item code is displayed, DOM Id: #SMALL____84, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 3, Test Name: New price value equals $33.00, DOM Id: #new_price, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 3, Test Name: Old price has text decoration value 'line-Through', DOM Id: #old_price, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 3, Test Name: Small size value equals 'Small (S)', DOM Id: .current, Browser: firefox, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: Add to cart button is displayed on tablet and mobile, DOM Id: #I__tishopping__233, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 1, Test Name: Add to compare button is displayed on tablet and mobile, DOM Id: #I__ticontrols__229, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 1, Test Name: Add to favorite button is displayed on tablet and mobile, DOM Id: #I__tiheart__225, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 1, Test Name: Cart displays two items on desktop and tablet, DOM Id: #STRONG____50, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 1, Test Name: Contacts section is minimised on mobile, DOM Id: #collapse_3, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 1, Test Name: Filter button is displayed on tablet and mobile, DOM Id: #ti-filter, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 1, Test Name: Filter button label is displayed on tablet, DOM Id: #SPAN____208, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 1, Test Name: Filter sidebar is displayed on desktop, DOM Id: #filter_col, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 1, Test Name: keep in touch section is minimised on mobile, DOM Id: #collapse_4, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 1, Test Name: Main menu is displayed on desktop, DOM Id: #DIV__mainmenu__15, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 1, Test Name: Quick links section is minimised on mobile, DOM Id: #collapse_1, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 1, Test Name: Search bar is displayed on desktop and tablet, DOM Id: #DIV__customsear__41, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 1, Test Name: Search button is displayed on tablet and mobile, DOM Id: #A__btnsearchm__59, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 1, Test Name: View by grid button is displayed only on desktop, DOM Id: #I__tiviewgrid__202, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 1, Test Name: View by list button is displayed on desktop, DOM Id: #I__tiviewlist__204, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 1, Test Name: WishList button is displayed on desktop, DOM Id: #A__wishlist__52, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 2, Test Name: 2 black shoes are displayed when filtered by colour black, DOM Id: #product_grid .grid_item, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 3, Test Name: Item code is displayed, DOM Id: #SMALL____84, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 3, Test Name: New price value equals $33.00, DOM Id: #new_price, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 3, Test Name: Old price has text decoration value 'line-Through', DOM Id: #old_price, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 3, Test Name: Small size value equals 'Small (S)', DOM Id: .current, Browser: firefox, Viewport: 768 x 700, Device: tablet, Status: Pass
+Task: 1, Test Name: Add to cart button is displayed on tablet and mobile, DOM Id: #I__tishopping__233, Browser: edge chromium, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: Add to compare button is displayed on tablet and mobile, DOM Id: #I__ticontrols__229, Browser: edge chromium, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: Add to favorite button is displayed on tablet and mobile, DOM Id: #I__tiheart__225, Browser: edge chromium, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: Cart displays two items on desktop and tablet, DOM Id: #STRONG____50, Browser: edge chromium, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: Contacts section is minimised on mobile, DOM Id: #collapse_3, Browser: edge chromium, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: Filter button is displayed on tablet and mobile, DOM Id: #ti-filter, Browser: edge chromium, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: Filter button label is displayed on tablet, DOM Id: #SPAN____208, Browser: edge chromium, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: Filter sidebar is displayed on desktop, DOM Id: #filter_col, Browser: edge chromium, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: keep in touch section is minimised on mobile, DOM Id: #collapse_4, Browser: edge chromium, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: Main menu is displayed on desktop, DOM Id: #DIV__mainmenu__15, Browser: edge chromium, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: Quick links section is minimised on mobile, DOM Id: #collapse_1, Browser: edge chromium, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: Search bar is displayed on desktop and tablet, DOM Id: #DIV__customsear__41, Browser: edge chromium, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: Search button is displayed on tablet and mobile, DOM Id: #A__btnsearchm__59, Browser: edge chromium, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: View by grid button is displayed only on desktop, DOM Id: #I__tiviewgrid__202, Browser: edge chromium, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: View by list button is displayed on desktop, DOM Id: #I__tiviewlist__204, Browser: edge chromium, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 1, Test Name: WishList button is displayed on desktop, DOM Id: #A__wishlist__52, Browser: edge chromium, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 2, Test Name: 2 black shoes are displayed when filtered by colour black, DOM Id: #product_grid .grid_item, Browser: edge chromium, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 3, Test Name: Item code is displayed, DOM Id: #SMALL____84, Browser: edge chromium, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 3, Test Name: New price value equals $33.00, DOM Id: #new_price, Browser: edge chromium, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 3, Test Name: Old price has text decoration value 'line-Through', DOM Id: #old_price, Browser: edge chromium, Viewport: 1200 x 700, Device: laptop, Status: Pass
+Task: 3, Test Name: Small size value equals 'Small (S)', DOM Id: .current, Browser: edge chromium, Viewport: 1200 x 700, Device: laptop, Status: Pass

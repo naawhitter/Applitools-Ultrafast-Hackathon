@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Applitools Traditional Regression Suite">
+    <parameter name="version" value="v2"/>
+    <test name="ChromeDesktopTest">
+        <parameter name="browser" value="chrome-desktop"/>
+        <parameter name="version" value="v2"/>
+        <classes>
+            <class name="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest"/>
+            <class name="com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest"/>
+            <class name="com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest"/>
+        </classes>
+    </test>
+    <test name="ChromeTabletTest">
+        <parameter name="browser" value="chrome-tablet"/>
+        <parameter name="version" value="v2"/>
+        <classes>
+            <class name="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest"/>
+            <class name="com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest"/>
+            <class name="com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest"/>
+        </classes>
+    </test>
+    <test name="ChromeIPhoneXTest">
+        <parameter name="browser" value="chrome-iphonex"/>
+        <parameter name="version" value="v2"/>
+        <classes>
+            <class name="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest"/>
+            <class name="com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest"/>
+            <class name="com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest"/>
+        </classes>
+    </test>
+    <test name="FireFoxDesktopTest">
+        <parameter name="browser" value="firefox-desktop"/>
+        <parameter name="version" value="v2"/>
+        <classes>
+            <class name="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest"/>
+            <class name="com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest"/>
+            <class name="com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest"/>
+        </classes>
+    </test>
+    <test name="FireFoxTabletTest">
+        <parameter name="browser" value="firefox-tablet"/>
+        <parameter name="version" value="v2"/>
+        <classes>
+            <class name="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest"/>
+            <class name="com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest"/>
+            <class name="com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest"/>
+        </classes>
+    </test>
+    <test name="EdgeChromiumDesktopTest">
+        <parameter name="browser" value="edge-desktop"/>
+        <parameter name="version" value="v2"/>
+        <classes>
+            <class name="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest"/>
+            <class name="com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest"/>
+            <class name="com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest"/>
+        </classes>
+    </test>
+</suite>

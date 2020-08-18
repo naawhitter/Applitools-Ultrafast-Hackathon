@@ -1,0 +1,216 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 126, Failures: 53, Errors: 0, Skipped: 0, Time elapsed: 532.754 s <<< FAILURE! - in TestSuite
+com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToCartButtonIsDisplayedOnTabletAndMobile  Time elapsed: 0.064 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToCartButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:171)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToCompareButtonIsDisplayedOnTabletAndMobile  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToCompareButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:158)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToFavoriteButtonIsDisplayedOnTabletAndMobile  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToFavoriteButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:145)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkFilterButtonIsDisplayedOnTabletAndMobile  Time elapsed: 0.029 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkFilterButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:80)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkFilterButtonLabelIsDisplayedOnTablet  Time elapsed: 0.03 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkFilterButtonLabelIsDisplayedOnTablet(CrossDeviceElementTest.kt:93)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest.checkTwoBlackShoesAreDisplayedWhenFilteredByColourBlack  Time elapsed: 0.173 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest.checkTwoBlackShoesAreDisplayedWhenFilteredByColourBlack(ShoppingExperienceTest.kt:14)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest.checkNewPriceHasDecimals  Time elapsed: 0.981 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest.checkNewPriceHasDecimals(ProductDetailsTest.kt:32)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest.checkSizeSmallValueEqualsSmallS  Time elapsed: 1.017 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest.checkSizeSmallValueEqualsSmallS(ProductDetailsTest.kt:23)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToCartButtonIsDisplayedOnTabletAndMobile  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToCartButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:173)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToCompareButtonIsDisplayedOnTabletAndMobile  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToCompareButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:160)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToFavoriteButtonIsDisplayedOnTabletAndMobile  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToFavoriteButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:147)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkViewByGridButtonIsDisplayedOnDesktop  Time elapsed: 0.027 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkViewByGridButtonIsDisplayedOnDesktop(CrossDeviceElementTest.kt:121)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkViewByListButtonIsDisplayedOnDesktop  Time elapsed: 0.026 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkViewByListButtonIsDisplayedOnDesktop(CrossDeviceElementTest.kt:134)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkWishlistButtonIsDisplayedOnDesktop  Time elapsed: 0.029 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkWishlistButtonIsDisplayedOnDesktop(CrossDeviceElementTest.kt:56)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest.checkTwoBlackShoesAreDisplayedWhenFilteredByColourBlack  Time elapsed: 0.747 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest.checkTwoBlackShoesAreDisplayedWhenFilteredByColourBlack(ShoppingExperienceTest.kt:14)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest.checkNewPriceHasDecimals  Time elapsed: 1.705 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest.checkNewPriceHasDecimals(ProductDetailsTest.kt:32)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest.checkSizeSmallValueEqualsSmallS  Time elapsed: 1.712 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest.checkSizeSmallValueEqualsSmallS(ProductDetailsTest.kt:23)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToCartButtonIsDisplayedOnTabletAndMobile  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToCartButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:173)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToCompareButtonIsDisplayedOnTabletAndMobile  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToCompareButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:160)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToFavoriteButtonIsDisplayedOnTabletAndMobile  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToFavoriteButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:147)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkSearchBarIsDisplayedOnDesktopAndTablet  Time elapsed: 0.028 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkSearchBarIsDisplayedOnDesktopAndTablet(CrossDeviceElementTest.kt:30)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkViewByGridButtonIsDisplayedOnDesktop  Time elapsed: 0.024 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkViewByGridButtonIsDisplayedOnDesktop(CrossDeviceElementTest.kt:121)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkViewByListButtonIsDisplayedOnDesktop  Time elapsed: 0.025 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkViewByListButtonIsDisplayedOnDesktop(CrossDeviceElementTest.kt:134)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkWishlistButtonIsDisplayedOnDesktop  Time elapsed: 0.024 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkWishlistButtonIsDisplayedOnDesktop(CrossDeviceElementTest.kt:56)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest.checkTwoBlackShoesAreDisplayedWhenFilteredByColourBlack  Time elapsed: 0.922 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest.checkTwoBlackShoesAreDisplayedWhenFilteredByColourBlack(ShoppingExperienceTest.kt:14)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest.checkNewPriceHasDecimals  Time elapsed: 1.923 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest.checkNewPriceHasDecimals(ProductDetailsTest.kt:32)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest.checkOldPriceHasCssValueLineThrough  Time elapsed: 1.916 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest.checkOldPriceHasCssValueLineThrough(ProductDetailsTest.kt:41)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest.checkSizeSmallValueEqualsSmallS  Time elapsed: 1.913 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest.checkSizeSmallValueEqualsSmallS(ProductDetailsTest.kt:23)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToCartButtonIsDisplayedOnTabletAndMobile  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToCartButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:171)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToCompareButtonIsDisplayedOnTabletAndMobile  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToCompareButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:158)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToFavoriteButtonIsDisplayedOnTabletAndMobile  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToFavoriteButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:145)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkFilterButtonIsDisplayedOnTabletAndMobile  Time elapsed: 0.026 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkFilterButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:80)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkFilterButtonLabelIsDisplayedOnTablet  Time elapsed: 0.023 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkFilterButtonLabelIsDisplayedOnTablet(CrossDeviceElementTest.kt:93)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest.checkTwoBlackShoesAreDisplayedWhenFilteredByColourBlack  Time elapsed: 0.516 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest.checkTwoBlackShoesAreDisplayedWhenFilteredByColourBlack(ShoppingExperienceTest.kt:14)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest.checkNewPriceHasDecimals  Time elapsed: 0.954 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest.checkNewPriceHasDecimals(ProductDetailsTest.kt:32)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest.checkSizeSmallValueEqualsSmallS  Time elapsed: 0.948 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest.checkSizeSmallValueEqualsSmallS(ProductDetailsTest.kt:23)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToCartButtonIsDisplayedOnTabletAndMobile  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToCartButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:173)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToCompareButtonIsDisplayedOnTabletAndMobile  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToCompareButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:160)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToFavoriteButtonIsDisplayedOnTabletAndMobile  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToFavoriteButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:147)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkViewByGridButtonIsDisplayedOnDesktop  Time elapsed: 0.025 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkViewByGridButtonIsDisplayedOnDesktop(CrossDeviceElementTest.kt:121)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkViewByListButtonIsDisplayedOnDesktop  Time elapsed: 0.024 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkViewByListButtonIsDisplayedOnDesktop(CrossDeviceElementTest.kt:134)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkWishlistButtonIsDisplayedOnDesktop  Time elapsed: 0.022 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkWishlistButtonIsDisplayedOnDesktop(CrossDeviceElementTest.kt:56)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest.checkTwoBlackShoesAreDisplayedWhenFilteredByColourBlack  Time elapsed: 1.093 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest.checkTwoBlackShoesAreDisplayedWhenFilteredByColourBlack(ShoppingExperienceTest.kt:14)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest.checkNewPriceHasDecimals  Time elapsed: 1.433 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest.checkNewPriceHasDecimals(ProductDetailsTest.kt:32)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest.checkSizeSmallValueEqualsSmallS  Time elapsed: 1.453 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest.checkSizeSmallValueEqualsSmallS(ProductDetailsTest.kt:23)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToCartButtonIsDisplayedOnTabletAndMobile  Time elapsed: 0.015 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToCartButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:171)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToCompareButtonIsDisplayedOnTabletAndMobile  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToCompareButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:158)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToFavoriteButtonIsDisplayedOnTabletAndMobile  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkAddToFavoriteButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:145)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkFilterButtonIsDisplayedOnTabletAndMobile  Time elapsed: 0.031 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkFilterButtonIsDisplayedOnTabletAndMobile(CrossDeviceElementTest.kt:80)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkFilterButtonLabelIsDisplayedOnTablet  Time elapsed: 0.026 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest.checkFilterButtonLabelIsDisplayedOnTablet(CrossDeviceElementTest.kt:93)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest.checkTwoBlackShoesAreDisplayedWhenFilteredByColourBlack  Time elapsed: 0.19 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest.checkTwoBlackShoesAreDisplayedWhenFilteredByColourBlack(ShoppingExperienceTest.kt:14)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest.checkNewPriceHasDecimals  Time elapsed: 0.671 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest.checkNewPriceHasDecimals(ProductDetailsTest.kt:32)
+
+com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest.checkSizeSmallValueEqualsSmallS  Time elapsed: 0.659 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest.checkSizeSmallValueEqualsSmallS(ProductDetailsTest.kt:23)
+

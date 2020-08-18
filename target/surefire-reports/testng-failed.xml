@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Applitools Traditional Regression Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="version" value="v2"/>
+  <test thread-count="5" name="ChromeDesktopTest(failed)" verbose="0">
+    <parameter name="browser" value="chrome-desktop"/>
+    <parameter name="version" value="v2"/>
+    <classes>
+      <class name="com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest">
+        <methods>
+          <include name="checkNewPriceHasDecimals"/>
+          <include name="openBrowser"/>
+          <include name="quitDriver"/>
+          <include name="checkSizeSmallValueEqualsSmallS"/>
+        </methods>
+      </class> <!-- com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest -->
+      <class name="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest">
+        <methods>
+          <include name="checkAddToCartButtonIsDisplayedOnTabletAndMobile"/>
+          <include name="checkAddToFavoriteButtonIsDisplayedOnTabletAndMobile"/>
+          <include name="checkFilterButtonLabelIsDisplayedOnTablet"/>
+          <include name="openBrowser"/>
+          <include name="checkAddToCompareButtonIsDisplayedOnTabletAndMobile"/>
+          <include name="quitDriver"/>
+          <include name="checkFilterButtonIsDisplayedOnTabletAndMobile"/>
+        </methods>
+      </class> <!-- com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest -->
+      <class name="com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="checkTwoBlackShoesAreDisplayedWhenFilteredByColourBlack"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest -->
+    </classes>
+  </test> <!-- ChromeDesktopTest(failed) -->
+  <test thread-count="5" name="ChromeTabletTest(failed)" verbose="0">
+    <parameter name="browser" value="chrome-tablet"/>
+    <parameter name="version" value="v2"/>
+    <classes>
+      <class name="com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest">
+        <methods>
+          <include name="checkNewPriceHasDecimals"/>
+          <include name="openBrowser"/>
+          <include name="quitDriver"/>
+          <include name="checkSizeSmallValueEqualsSmallS"/>
+        </methods>
+      </class> <!-- com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest -->
+      <class name="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest">
+        <methods>
+          <include name="checkAddToCartButtonIsDisplayedOnTabletAndMobile"/>
+          <include name="checkAddToFavoriteButtonIsDisplayedOnTabletAndMobile"/>
+          <include name="openBrowser"/>
+          <include name="checkAddToCompareButtonIsDisplayedOnTabletAndMobile"/>
+          <include name="checkViewByListButtonIsDisplayedOnDesktop"/>
+          <include name="checkWishlistButtonIsDisplayedOnDesktop"/>
+          <include name="checkViewByGridButtonIsDisplayedOnDesktop"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest -->
+      <class name="com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="checkTwoBlackShoesAreDisplayedWhenFilteredByColourBlack"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest -->
+    </classes>
+  </test> <!-- ChromeTabletTest(failed) -->
+  <test thread-count="5" name="ChromeIPhoneXTest(failed)" verbose="0">
+    <parameter name="browser" value="chrome-iphonex"/>
+    <parameter name="version" value="v2"/>
+    <classes>
+      <class name="com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest">
+        <methods>
+          <include name="checkOldPriceHasCssValueLineThrough"/>
+          <include name="checkNewPriceHasDecimals"/>
+          <include name="openBrowser"/>
+          <include name="quitDriver"/>
+          <include name="checkSizeSmallValueEqualsSmallS"/>
+        </methods>
+      </class> <!-- com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest -->
+      <class name="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest">
+        <methods>
+          <include name="checkAddToCartButtonIsDisplayedOnTabletAndMobile"/>
+          <include name="checkSearchBarIsDisplayedOnDesktopAndTablet"/>
+          <include name="checkAddToFavoriteButtonIsDisplayedOnTabletAndMobile"/>
+          <include name="openBrowser"/>
+          <include name="checkAddToCompareButtonIsDisplayedOnTabletAndMobile"/>
+          <include name="checkViewByListButtonIsDisplayedOnDesktop"/>
+          <include name="checkWishlistButtonIsDisplayedOnDesktop"/>
+          <include name="checkViewByGridButtonIsDisplayedOnDesktop"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest -->
+      <class name="com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="checkTwoBlackShoesAreDisplayedWhenFilteredByColourBlack"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest -->
+    </classes>
+  </test> <!-- ChromeIPhoneXTest(failed) -->
+  <test thread-count="5" name="FireFoxDesktopTest(failed)" verbose="0">
+    <parameter name="browser" value="firefox-desktop"/>
+    <parameter name="version" value="v2"/>
+    <classes>
+      <class name="com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest">
+        <methods>
+          <include name="checkNewPriceHasDecimals"/>
+          <include name="openBrowser"/>
+          <include name="quitDriver"/>
+          <include name="checkSizeSmallValueEqualsSmallS"/>
+        </methods>
+      </class> <!-- com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest -->
+      <class name="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest">
+        <methods>
+          <include name="checkAddToCartButtonIsDisplayedOnTabletAndMobile"/>
+          <include name="checkAddToFavoriteButtonIsDisplayedOnTabletAndMobile"/>
+          <include name="checkFilterButtonLabelIsDisplayedOnTablet"/>
+          <include name="openBrowser"/>
+          <include name="checkAddToCompareButtonIsDisplayedOnTabletAndMobile"/>
+          <include name="quitDriver"/>
+          <include name="checkFilterButtonIsDisplayedOnTabletAndMobile"/>
+        </methods>
+      </class> <!-- com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest -->
+      <class name="com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="checkTwoBlackShoesAreDisplayedWhenFilteredByColourBlack"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest -->
+    </classes>
+  </test> <!-- FireFoxDesktopTest(failed) -->
+  <test thread-count="5" name="FireFoxTabletTest(failed)" verbose="0">
+    <parameter name="browser" value="firefox-tablet"/>
+    <parameter name="version" value="v2"/>
+    <classes>
+      <class name="com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest">
+        <methods>
+          <include name="checkNewPriceHasDecimals"/>
+          <include name="openBrowser"/>
+          <include name="quitDriver"/>
+          <include name="checkSizeSmallValueEqualsSmallS"/>
+        </methods>
+      </class> <!-- com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest -->
+      <class name="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest">
+        <methods>
+          <include name="checkAddToCartButtonIsDisplayedOnTabletAndMobile"/>
+          <include name="checkAddToFavoriteButtonIsDisplayedOnTabletAndMobile"/>
+          <include name="openBrowser"/>
+          <include name="checkAddToCompareButtonIsDisplayedOnTabletAndMobile"/>
+          <include name="checkViewByListButtonIsDisplayedOnDesktop"/>
+          <include name="checkWishlistButtonIsDisplayedOnDesktop"/>
+          <include name="checkViewByGridButtonIsDisplayedOnDesktop"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest -->
+      <class name="com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="checkTwoBlackShoesAreDisplayedWhenFilteredByColourBlack"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest -->
+    </classes>
+  </test> <!-- FireFoxTabletTest(failed) -->
+  <test thread-count="5" name="EdgeChromiumDesktopTest(failed)" verbose="0">
+    <parameter name="browser" value="edge-desktop"/>
+    <parameter name="version" value="v2"/>
+    <classes>
+      <class name="com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest">
+        <methods>
+          <include name="checkNewPriceHasDecimals"/>
+          <include name="openBrowser"/>
+          <include name="quitDriver"/>
+          <include name="checkSizeSmallValueEqualsSmallS"/>
+        </methods>
+      </class> <!-- com.natasha.applitools.traditionalTests.traditionalTestV2.ProductDetailsTest -->
+      <class name="com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest">
+        <methods>
+          <include name="checkAddToCartButtonIsDisplayedOnTabletAndMobile"/>
+          <include name="checkAddToFavoriteButtonIsDisplayedOnTabletAndMobile"/>
+          <include name="checkFilterButtonLabelIsDisplayedOnTablet"/>
+          <include name="openBrowser"/>
+          <include name="checkAddToCompareButtonIsDisplayedOnTabletAndMobile"/>
+          <include name="quitDriver"/>
+          <include name="checkFilterButtonIsDisplayedOnTabletAndMobile"/>
+        </methods>
+      </class> <!-- com.natasha.applitools.traditionalTests.traditionalTestV2.CrossDeviceElementTest -->
+      <class name="com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="checkTwoBlackShoesAreDisplayedWhenFilteredByColourBlack"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- com.natasha.applitools.traditionalTests.traditionalTestV2.ShoppingExperienceTest -->
+    </classes>
+  </test> <!-- EdgeChromiumDesktopTest(failed) -->
+</suite> <!-- Failed suite [Applitools Traditional Regression Suite] -->
